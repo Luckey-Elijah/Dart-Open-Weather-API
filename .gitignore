@@ -8,3 +8,5 @@ build/
 # Directory created by dartdoc
 doc/api/
 secrets.yaml
+lib/hourly_forecast.dart
+.DS_Store
