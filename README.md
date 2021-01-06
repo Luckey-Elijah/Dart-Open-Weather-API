@@ -1,19 +1,7 @@
-# Weather CLI
+# Dart OpenWeather API
 
-A command-line application for fetching your local weather.
+A Library for interacting with the [OpenWeather API](https://openweathermap.org/api).
 
-```shell
-$ weather
-> ⛈ 78°F at 33801
-```
-```shell
-$ weather -z 10001
-> 🌨 41°F at 10001
-```
+## Progress
 
-## Usage
-
-1. Add an [Open Weather API](https://home.openweathermap.org/api_keys) key to the [`secrets.yaml`](./secrets.yaml) file.
-2. Get dependencies: `dart pub get` in root directory.
-3. Build app: `dart2native bin/weather.dart`.
-4. Add to you path: `export PATH:$PATH bin/weather`
+Check the [project board] (https://github.com/Luckey-Elijah/Dart-Open-Weather-API/projects/1) to see the current status.
