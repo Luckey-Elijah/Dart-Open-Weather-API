@@ -1,8 +1,6 @@
 import 'dart:io';
-import 'package:http/http.dart';
 import 'package:path/path.dart' show PathException;
 import 'package:yaml/yaml.dart';
-
 import 'package:weather/current_weather.dart';
 
 void main(List<String> arguments) async {
@@ -15,18 +13,6 @@ void main(List<String> arguments) async {
   );
 
   stdout.writeln(w);
-}
-
-Future<dynamic> byCityName(
-  String city,
-  String baseUrl,
-  String apiKey, {
-  int stateCode,
-  int countryCode,
-}) async {
-  var url = baseUrl + '?q=${city}&appid=${apiKey}';
-  var body = (await get(url)).body;
-  return body;
 }
 
 String getSecretKey(String path) {
