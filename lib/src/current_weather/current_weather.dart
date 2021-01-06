@@ -116,9 +116,8 @@ class CurrentWeather {
       CurrentWeather.fromMap(json.decode(source));
 
   @override
-  String toString() {
-    return 'CurrentWeather(coord: $coord, weather: $weather, base: $base, main: $main, visibility: $visibility, wind: $wind, clouds: $clouds, dt: $dt, sys: $sys, timezone: $timezone, id: $id, name: $name, cod: $cod)';
-  }
+  String toString() =>
+      'CurrentWeather(coord: $coord, weather: $weather, base: $base, main: $main, visibility: $visibility, wind: $wind, clouds: $clouds, dt: $dt, sys: $sys, timezone: $timezone, id: $id, name: $name, cod: $cod)';
 
   @override
   bool operator ==(Object o) {
@@ -212,9 +211,8 @@ class Weather {
       Weather.fromMap(json.decode(source));
 
   @override
-  String toString() {
-    return 'Weather(id: $id, main: $main, description: $description, icon: $icon)';
-  }
+  String toString() =>
+      'Weather(id: $id, main: $main, description: $description, icon: $icon)';
 
   @override
   bool operator ==(Object o) {
