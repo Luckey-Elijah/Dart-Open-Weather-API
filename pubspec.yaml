@@ -1,5 +1,5 @@
 name: weather
-description: A command-line application for fetching your local weather.
+description: An API for OpenWeather's API suite.
 version: 1.0.0
 
 environment:

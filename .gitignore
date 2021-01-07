@@ -6,7 +6,8 @@
 build/
 
 # Directory created by dartdoc
-doc/api/
-secrets.yaml
+# doc/api/
 lib/hourly_forecast.dart
 .DS_Store
+
+secrets.yaml
