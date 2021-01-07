@@ -1,4 +1,4 @@
-/// API for access [OpenWeather's current weather data API](https://openweathermap.org/current)
+/// API for access [OpenWeather's current weather data API](https://openweathermap.org/current).
 library current_weather;
 
 export 'src/constants.dart';
