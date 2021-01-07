@@ -2,7 +2,7 @@
 
 A Library for interacting with the [OpenWeather API](https://openweathermap.org/api).
 
-Add your API Key to [`secrets.yaml`](./secrets.yaml) or load it into the utility functions.
+Add your API Key to `secrets.yaml` or load it into the utility functions (i.e. `byCityName('City', apiKey: 'key123')`).
 
 ## Progress
 
