@@ -4,7 +4,7 @@ A Library for interacting with the [OpenWeather API](https://openweathermap.org/
 
 Add your API Key to `secrets.yaml` or load it into the utility functions (i.e. `byCityName('City', apiKey: 'key123')`).
 
-API Docs [here] (https://luckey-elijah.github.io/Dart-Open-Weather-API/).
+API Docs [here](https://luckey-elijah.github.io/Dart-Open-Weather-API/).
 
 ## Progress
 
