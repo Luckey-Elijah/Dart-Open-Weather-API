@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+  <meta name="description" content="API docs for the CurrentWeather class from the current_weather library, for the Dart programming language.">
+  <title>CurrentWeather class - current_weather library - Dart API</title>
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500,400i,400,300|Source+Sans+Pro:400,300,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="../static-assets/github.css">
+  <link rel="stylesheet" href="../static-assets/styles.css">
+  <link rel="icon" href="../static-assets/favicon.png">
+
+</head>
+
+<body data-base-href="../"
+      data-using-base-href="false">
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <button id="sidenav-left-toggle" type="button">&nbsp;</button>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="../index.html">weather</a></li>
+    <li><a href="../current_weather/current_weather-library.html">current_weather</a></li>
+    <li class="self-crumb">CurrentWeather class</li>
+  </ol>
+  <div class="self-name">CurrentWeather</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<main>
+
+  <div id="dartdoc-sidebar-left" class="col-xs-6 col-sm-3 col-md-2 sidebar sidebar-offcanvas-left">
+    <header id="header-search-sidebar" class="hidden-l">
+      <form class="search-sidebar" role="search">
+        <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+      </form>
+    </header>
+    
+    <ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+      <li><a href="../index.html">weather</a></li>
+      <li><a href="../current_weather/current_weather-library.html">current_weather</a></li>
+      <li class="self-crumb">CurrentWeather class</li>
+    </ol>
+    
+    <h5>current_weather library</h5>
+    <ol>
+      <li class="section-title"><a href="../current_weather/current_weather-library.html#classes">Classes</a></li>
+      <li><a href="../current_weather/Clouds-class.html">Clouds</a></li>
+      <li><a href="../current_weather/Condition-class.html">Condition</a></li>
+      <li><a href="../current_weather/Coordinates-class.html">Coordinates</a></li>
+      <li><a href="../current_weather/CurrentWeather-class.html">CurrentWeather</a></li>
+      <li><a href="../current_weather/Main-class.html">Main</a></li>
+      <li><a href="../current_weather/System-class.html">System</a></li>
+      <li><a href="../current_weather/Weather-class.html">Weather</a></li>
+      <li><a href="../current_weather/WeatherConditionCodes-class.html">WeatherConditionCodes</a></li>
+      <li><a href="../current_weather/Wind-class.html">Wind</a></li>
+    
+    
+    
+      <li class="section-title"><a href="../current_weather/current_weather-library.html#constants">Constants</a></li>
+      <li><a href="../hourly_forecast/currentWeatherBaseUrl-constant.html">currentWeatherBaseUrl</a></li>
+    
+    
+      <li class="section-title"><a href="../current_weather/current_weather-library.html#functions">Functions</a></li>
+      <li><a href="../current_weather/byCityId.html">byCityId</a></li>
+      <li><a href="../current_weather/byCityName.html">byCityName</a></li>
+      <li><a href="../current_weather/byCoordinates.html">byCoordinates</a></li>
+      <li><a href="../current_weather/byZipCode.html">byZipCode</a></li>
+    
+      <li class="section-title"><a href="../current_weather/current_weather-library.html#enums">Enums</a></li>
+      <li><a href="../current_weather/WeatherCondition-class.html">WeatherCondition</a></li>
+    
+    
+    </ol>
+  </div>
+
+  <div id="dartdoc-main-content" class="col-xs-12 col-sm-9 col-md-8 main-content">
+      <div><h1><span class="kind-class">CurrentWeather</span> class  </h1></div>
+
+    
+
+    <section class="summary offset-anchor" id="constructors">
+      <h2>Constructors</h2>
+
+      <dl class="constructor-summary-list">
+        <dt id="CurrentWeather" class="callable">
+          <span class="name"><a href="../current_weather/CurrentWeather/CurrentWeather.html">CurrentWeather</a></span><span class="signature">(<span class="parameter" id="-param-coord">{<span class="type-annotation"><a href="../current_weather/Coordinates-class.html">Coordinates</a></span> <span class="parameter-name">coord</span>, </span><span class="parameter" id="-param-weather"><span class="type-annotation"><a href="https://api.dart.dev/stable/2.10.4/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../current_weather/Weather-class.html">Weather</a></span>&gt;</span></span> <span class="parameter-name">weather</span>, </span><span class="parameter" id="-param-base"><span class="type-annotation"><a href="https://api.dart.dev/stable/2.10.4/dart-core/String-class.html">String</a></span> <span class="parameter-name">base</span>, </span><span class="parameter" id="-param-main"><span class="type-annotation"><a href="../current_weather/Main-class.html">Main</a></span> <span class="parameter-name">main</span>, </span><span class="parameter" id="-param-visibility"><span class="type-annotation"><a href="https://api.dart.dev/stable/2.10.4/dart-core/int-class.html">int</a></span> <span class="parameter-name">visibility</span>, </span><span class="parameter" id="-param-wind"><span class="type-annotation"><a href="../current_weather/Wind-class.html">Wind</a></span> <span class="parameter-name">wind</span>, </span><span class="parameter" id="-param-clouds"><span class="type-annotation"><a href="../current_weather/Clouds-class.html">Clouds</a></span> <span class="parameter-name">clouds</span>, </span><span class="parameter" id="-param-dt"><span class="type-annotation"><a href="https://api.dart.dev/stable/2.10.4/dart-core/int-class.html">int</a></span> <span class="parameter-name">dt</span>, </span><span class="parameter" id="-param-sys"><span class="type-annotation"><a href="../current_weather/System-class.html">System</a></span> <span class="parameter-name">sys</span>, </span><span class="parameter" id="-param-timezone"><span class="type-annotation"><a href="https://api.dart.dev/stable/2.10.4/dart-core/int-class.html">int</a></span> <span class="parameter-name">timezone</span>, </span><span class="parameter" id="-param-id"><span class="type-annotation"><a href="https://api.dart.dev/stable/2.10.4/dart-core/int-class.html">int</a></span> <span class="parameter-name">id</span>, </span><span class="parameter" id="-param-name"><span class="type-annotation"><a href="https://api.dart.dev/stable/2.10.4/dart-core/String-class.html">String</a></span> <span class="parameter-name">name</span>, </span><span class="parameter" id="-param-cod"><span class="type-annotation"><a href="https://api.dart.dev/stable/2.10.4/dart-core/int-class.html">int</a></span> <span class="parameter-name">cod</span>}</span>)</span>
+        </dt>
+        <dd>
+           
+        </dd>
+        <dt id="CurrentWeather.fromJson" class="callable">
+          <span class="name"><a href="../current_weather/CurrentWeather/CurrentWeather.fromJson.html">CurrentWeather.fromJson</a></span><span class="signature">(<span class="parameter" id="fromJson-param-source"><span class="type-annotation"><a href="https://api.dart.dev/stable/2.10.4/dart-core/String-class.html">String</a></span> <span class="parameter-name">source</span></span>)</span>
+        </dt>
+        <dd>
+           
+          <div class="constructor-modifier features">factory</div>
+        </dd>
+        <dt id="CurrentWeather.fromMap" class="callable">
+          <span class="name"><a href="../current_weather/CurrentWeather/CurrentWeather.fromMap.html">CurrentWeather.fromMap</a></span><span class="signature">(<span class="parameter" id="fromMap-param-map"><span class="type-annotation"><a href="https://api.dart.dev/stable/2.10.4/dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.dart.dev/stable/2.10.4/dart-core/String-class.html">String</a></span>, <span class="type-parameter">dynamic</span>&gt;</span></span> <span class="parameter-name">map</span></span>)</span>
+        </dt>
+        <dd>
+           
+          <div class="constructor-modifier features">factory</div>
+        </dd>
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor" id="instance-properties">
+      <h2>Properties</h2>
+
+      <dl class="properties">
+        <dt id="base" class="property">
+          <span class="name"><a href="../current_weather/CurrentWeather/base.html">base</a></span>
+          <span class="signature">&#8596; <a href="https://api.dart.dev/stable/2.10.4/dart-core/String-class.html">String</a></span>         
+        </dt>
+        <dd>
+           
+                  <div class="features">read / write</div>
+</dd>
+        <dt id="clouds" class="property">
+          <span class="name"><a href="../current_weather/CurrentWeather/clouds.html">clouds</a></span>
+          <span class="signature">&#8596; <a href="../current_weather/Clouds-class.html">Clouds</a></span>         
+        </dt>
+        <dd>
+           
+                  <div class="features">read / write</div>
+</dd>
+        <dt id="cod" class="property">
+          <span class="name"><a href="../current_weather/CurrentWeather/cod.html">cod</a></span>
+          <span class="signature">&#8596; <a href="https://api.dart.dev/stable/2.10.4/dart-core/int-class.html">int</a></span>         
+        </dt>
+        <dd>
+           
+                  <div class="features">read / write</div>
+</dd>
+        <dt id="coord" class="property">
+          <span class="name"><a href="../current_weather/CurrentWeather/coord.html">coord</a></span>
+          <span class="signature">&#8596; <a href="../current_weather/Coordinates-class.html">Coordinates</a></span>         
+        </dt>
+        <dd>
+           
+                  <div class="features">read / write</div>
+</dd>
+        <dt id="dt" class="property">
+          <span class="name"><a href="../current_weather/CurrentWeather/dt.html">dt</a></span>
+          <span class="signature">&#8596; <a href="https://api.dart.dev/stable/2.10.4/dart-core/int-class.html">int</a></span>         
+        </dt>
+        <dd>
+           
+                  <div class="features">read / write</div>
+</dd>
+        <dt id="hashCode" class="property">
+          <span class="name"><a href="../current_weather/CurrentWeather/hashCode.html">hashCode</a></span>
+          <span class="signature">&#8594; <a href="https://api.dart.dev/stable/2.10.4/dart-core/int-class.html">int</a></span>         
+        </dt>
+        <dd>
+          The hash code for this object. <a href="../current_weather/CurrentWeather/hashCode.html">[...]</a>
+                  <div class="features">read-only, override</div>
+</dd>
+        <dt id="id" class="property">
+          <span class="name"><a href="../current_weather/CurrentWeather/id.html">id</a></span>
+          <span class="signature">&#8596; <a href="https://api.dart.dev/stable/2.10.4/dart-core/int-class.html">int</a></span>         
+        </dt>
+        <dd>
+           
+                  <div class="features">read / write</div>
+</dd>
+        <dt id="main" class="property">
+          <span class="name"><a href="../current_weather/CurrentWeather/main.html">main</a></span>
+          <span class="signature">&#8596; <a href="../current_weather/Main-class.html">Main</a></span>         
+        </dt>
+        <dd>
+           
+                  <div class="features">read / write</div>
+</dd>
+        <dt id="name" class="property">
+          <span class="name"><a href="../current_weather/CurrentWeather/name.html">name</a></span>
+          <span class="signature">&#8596; <a href="https://api.dart.dev/stable/2.10.4/dart-core/String-class.html">String</a></span>         
+        </dt>
+        <dd>
+           
+                  <div class="features">read / write</div>
+</dd>
+        <dt id="runtimeType" class="property inherited">
+          <span class="name"><a href="https://api.dart.dev/stable/2.10.4/dart-core/Object/runtimeType.html">runtimeType</a></span>
+          <span class="signature">&#8594; <a href="https://api.dart.dev/stable/2.10.4/dart-core/Type-class.html">Type</a></span>         
+        </dt>
+        <dd class="inherited">
+          A representation of the runtime type of the object. 
+                  <div class="features">read-only, inherited</div>
+</dd>
+        <dt id="sys" class="property">
+          <span class="name"><a href="../current_weather/CurrentWeather/sys.html">sys</a></span>
+          <span class="signature">&#8596; <a href="../current_weather/System-class.html">System</a></span>         
+        </dt>
+        <dd>
+           
+                  <div class="features">read / write</div>
+</dd>
+        <dt id="timezone" class="property">
+          <span class="name"><a href="../current_weather/CurrentWeather/timezone.html">timezone</a></span>
+          <span class="signature">&#8596; <a href="https://api.dart.dev/stable/2.10.4/dart-core/int-class.html">int</a></span>         
+        </dt>
+        <dd>
+           
+                  <div class="features">read / write</div>
+</dd>
+        <dt id="visibility" class="property">
+          <span class="name"><a href="../current_weather/CurrentWeather/visibility.html">visibility</a></span>
+          <span class="signature">&#8596; <a href="https://api.dart.dev/stable/2.10.4/dart-core/int-class.html">int</a></span>         
+        </dt>
+        <dd>
+           
+                  <div class="features">read / write</div>
+</dd>
+        <dt id="weather" class="property">
+          <span class="name"><a href="../current_weather/CurrentWeather/weather.html">weather</a></span>
+          <span class="signature">&#8596; <a href="https://api.dart.dev/stable/2.10.4/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../current_weather/Weather-class.html">Weather</a></span>&gt;</span></span>         
+        </dt>
+        <dd>
+           
+                  <div class="features">read / write</div>
+</dd>
+        <dt id="wind" class="property">
+          <span class="name"><a href="../current_weather/CurrentWeather/wind.html">wind</a></span>
+          <span class="signature">&#8596; <a href="../current_weather/Wind-class.html">Wind</a></span>         
+        </dt>
+        <dd>
+           
+                  <div class="features">read / write</div>
+</dd>
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor" id="instance-methods">
+      <h2>Methods</h2>
+      <dl class="callables">
+        <dt id="copyWith" class="callable">
+          <span class="name"><a href="../current_weather/CurrentWeather/copyWith.html">copyWith</a></span><span class="signature">(<wbr><span class="parameter" id="copyWith-param-coord">{<span class="type-annotation"><a href="../current_weather/Coordinates-class.html">Coordinates</a></span> <span class="parameter-name">coord</span>, </span><span class="parameter" id="copyWith-param-weather"><span class="type-annotation"><a href="https://api.dart.dev/stable/2.10.4/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../current_weather/Weather-class.html">Weather</a></span>&gt;</span></span> <span class="parameter-name">weather</span>, </span><span class="parameter" id="copyWith-param-base"><span class="type-annotation"><a href="https://api.dart.dev/stable/2.10.4/dart-core/String-class.html">String</a></span> <span class="parameter-name">base</span>, </span><span class="parameter" id="copyWith-param-main"><span class="type-annotation"><a href="../current_weather/Main-class.html">Main</a></span> <span class="parameter-name">main</span>, </span><span class="parameter" id="copyWith-param-visibility"><span class="type-annotation"><a href="https://api.dart.dev/stable/2.10.4/dart-core/int-class.html">int</a></span> <span class="parameter-name">visibility</span>, </span><span class="parameter" id="copyWith-param-wind"><span class="type-annotation"><a href="../current_weather/Wind-class.html">Wind</a></span> <span class="parameter-name">wind</span>, </span><span class="parameter" id="copyWith-param-clouds"><span class="type-annotation"><a href="../current_weather/Clouds-class.html">Clouds</a></span> <span class="parameter-name">clouds</span>, </span><span class="parameter" id="copyWith-param-dt"><span class="type-annotation"><a href="https://api.dart.dev/stable/2.10.4/dart-core/int-class.html">int</a></span> <span class="parameter-name">dt</span>, </span><span class="parameter" id="copyWith-param-sys"><span class="type-annotation"><a href="../current_weather/System-class.html">System</a></span> <span class="parameter-name">sys</span>, </span><span class="parameter" id="copyWith-param-timezone"><span class="type-annotation"><a href="https://api.dart.dev/stable/2.10.4/dart-core/int-class.html">int</a></span> <span class="parameter-name">timezone</span>, </span><span class="parameter" id="copyWith-param-id"><span class="type-annotation"><a href="https://api.dart.dev/stable/2.10.4/dart-core/int-class.html">int</a></span> <span class="parameter-name">id</span>, </span><span class="parameter" id="copyWith-param-name"><span class="type-annotation"><a href="https://api.dart.dev/stable/2.10.4/dart-core/String-class.html">String</a></span> <span class="parameter-name">name</span>, </span><span class="parameter" id="copyWith-param-cod"><span class="type-annotation"><a href="https://api.dart.dev/stable/2.10.4/dart-core/int-class.html">int</a></span> <span class="parameter-name">cod</span>}</span>)
+            <span class="returntype parameter">&#8594; <a href="../current_weather/CurrentWeather-class.html">CurrentWeather</a></span>
+          </span>
+                  </dt>
+        <dd>
+           
+                  
+</dd>
+        <dt id="noSuchMethod" class="callable inherited">
+          <span class="name"><a href="https://api.dart.dev/stable/2.10.4/dart-core/Object/noSuchMethod.html">noSuchMethod</a></span><span class="signature">(<wbr><span class="parameter" id="noSuchMethod-param-invocation"><span class="type-annotation"><a href="https://api.dart.dev/stable/2.10.4/dart-core/Invocation-class.html">Invocation</a></span> <span class="parameter-name">invocation</span></span>)
+            <span class="returntype parameter">&#8594; dynamic</span>
+          </span>
+                  </dt>
+        <dd class="inherited">
+          Invoked when a non-existent method or property is accessed. <a href="https://api.dart.dev/stable/2.10.4/dart-core/Object/noSuchMethod.html">[...]</a>
+                  <div class="features">inherited</div>
+</dd>
+        <dt id="toJson" class="callable">
+          <span class="name"><a href="../current_weather/CurrentWeather/toJson.html">toJson</a></span><span class="signature">(<wbr>)
+            <span class="returntype parameter">&#8594; <a href="https://api.dart.dev/stable/2.10.4/dart-core/String-class.html">String</a></span>
+          </span>
+                  </dt>
+        <dd>
+           
+                  
+</dd>
+        <dt id="toMap" class="callable">
+          <span class="name"><a href="../current_weather/CurrentWeather/toMap.html">toMap</a></span><span class="signature">(<wbr>)
+            <span class="returntype parameter">&#8594; <a href="https://api.dart.dev/stable/2.10.4/dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.dart.dev/stable/2.10.4/dart-core/String-class.html">String</a></span>, <span class="type-parameter">dynamic</span>&gt;</span></span>
+          </span>
+                  </dt>
+        <dd>
+           
+                  
+</dd>
+        <dt id="toString" class="callable">
+          <span class="name"><a href="../current_weather/CurrentWeather/toString.html">toString</a></span><span class="signature">(<wbr>)
+            <span class="returntype parameter">&#8594; <a href="https://api.dart.dev/stable/2.10.4/dart-core/String-class.html">String</a></span>
+          </span>
+                  </dt>
+        <dd>
+          Returns a string representation of this object. 
+                  <div class="features">override</div>
+</dd>
+      </dl>
+    </section>
+
+    <section class="summary offset-anchor" id="operators">
+      <h2>Operators</h2>
+      <dl class="callables">
+        <dt id="operator ==" class="callable">
+          <span class="name"><a href="../current_weather/CurrentWeather/operator_equals.html">operator ==</a></span><span class="signature">(<wbr><span class="parameter" id="==-param-o"><span class="type-annotation"><a href="https://api.dart.dev/stable/2.10.4/dart-core/Object-class.html">Object</a></span> <span class="parameter-name">o</span></span>)
+            <span class="returntype parameter">&#8594; <a href="https://api.dart.dev/stable/2.10.4/dart-core/bool-class.html">bool</a></span>
+          </span>
+                  </dt>
+        <dd>
+          The equality operator. <a href="../current_weather/CurrentWeather/operator_equals.html">[...]</a>
+                  <div class="features">override</div>
+</dd>
+      </dl>
+    </section>
+
+
+
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-right" class="col-xs-6 col-sm-6 col-md-2 sidebar sidebar-offcanvas-right">
+    <ol>
+    
+      <li class="section-title"><a href="../current_weather/CurrentWeather-class.html#constructors">Constructors</a></li>
+      <li><a href="../current_weather/CurrentWeather/CurrentWeather.html">CurrentWeather</a></li>
+      <li><a href="../current_weather/CurrentWeather/CurrentWeather.fromJson.html">fromJson</a></li>
+      <li><a href="../current_weather/CurrentWeather/CurrentWeather.fromMap.html">fromMap</a></li>
+    
+      <li class="section-title">
+        <a href="../current_weather/CurrentWeather-class.html#instance-properties">Properties</a>
+      </li>
+      <li><a href="../current_weather/CurrentWeather/base.html">base</a></li>
+      <li><a href="../current_weather/CurrentWeather/clouds.html">clouds</a></li>
+      <li><a href="../current_weather/CurrentWeather/cod.html">cod</a></li>
+      <li><a href="../current_weather/CurrentWeather/coord.html">coord</a></li>
+      <li><a href="../current_weather/CurrentWeather/dt.html">dt</a></li>
+      <li><a href="../current_weather/CurrentWeather/hashCode.html">hashCode</a></li>
+      <li><a href="../current_weather/CurrentWeather/id.html">id</a></li>
+      <li><a href="../current_weather/CurrentWeather/main.html">main</a></li>
+      <li><a href="../current_weather/CurrentWeather/name.html">name</a></li>
+      <li class="inherited"><a href="https://api.dart.dev/stable/2.10.4/dart-core/Object/runtimeType.html">runtimeType</a></li>
+      <li><a href="../current_weather/CurrentWeather/sys.html">sys</a></li>
+      <li><a href="../current_weather/CurrentWeather/timezone.html">timezone</a></li>
+      <li><a href="../current_weather/CurrentWeather/visibility.html">visibility</a></li>
+      <li><a href="../current_weather/CurrentWeather/weather.html">weather</a></li>
+      <li><a href="../current_weather/CurrentWeather/wind.html">wind</a></li>
+    
+      <li class="section-title"><a href="../current_weather/CurrentWeather-class.html#instance-methods">Methods</a></li>
+      <li><a href="../current_weather/CurrentWeather/copyWith.html">copyWith</a></li>
+      <li class="inherited"><a href="https://api.dart.dev/stable/2.10.4/dart-core/Object/noSuchMethod.html">noSuchMethod</a></li>
+      <li><a href="../current_weather/CurrentWeather/toJson.html">toJson</a></li>
+      <li><a href="../current_weather/CurrentWeather/toMap.html">toMap</a></li>
+      <li><a href="../current_weather/CurrentWeather/toString.html">toString</a></li>
+    
+      <li class="section-title"><a href="../current_weather/CurrentWeather-class.html#operators">Operators</a></li>
+      <li><a href="../current_weather/CurrentWeather/operator_equals.html">operator ==</a></li>
+    
+    
+    
+    
+    </ol>
+  </div><!--/.sidebar-offcanvas-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    weather
+      1.0.0
+  </span>
+
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="../static-assets/typeahead.bundle.min.js"></script>
+<script src="../static-assets/highlight.pack.js"></script>
+<script src="../static-assets/URI.js"></script>
+<script src="../static-assets/script.js"></script>
+
+
+</body>
+
+</html>
