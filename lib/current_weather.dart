@@ -1,7 +1,7 @@
 library current_weather;
 
-export 'src/constants.dart';
-export 'src/utils.dart';
+export 'constants.dart';
+export 'src/current_weather/utils.dart';
 export 'src/current_weather/clouds.dart';
 export 'src/current_weather/condition.dart';
 export 'src/current_weather/coordinates.dart';
