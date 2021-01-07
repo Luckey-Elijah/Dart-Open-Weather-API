@@ -1,0 +1,3 @@
+class HourlyForecast {
+  // TODO: implement
+}

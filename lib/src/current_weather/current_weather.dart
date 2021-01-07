@@ -1,7 +1,5 @@
 import 'dart:convert';
-
 import 'package:collection/collection.dart';
-
 import 'clouds.dart';
 import 'coordinates.dart';
 import 'main.dart';

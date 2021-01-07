@@ -1,6 +1,6 @@
 import 'package:http/http.dart';
 import '../utils.dart';
-import '../../constants.dart' show currentWeatherBaseUrl;
+import '../constants.dart' show currentWeatherBaseUrl;
 
 /// Get CurrentWeather JSON string by by city name.
 Future<String> byCityName(
