@@ -6,9 +6,23 @@ Add your API Key to `secrets.yaml`.
 
 ## Usage
 
+Run with Dart:
+
 ```shell
+git clone https://github.com/Luckey-Elijah/weather.git
+cd weather
+pub get
 dart run bin/main.dart
 ```
+
+Build the binary:
+
+```shell
+dart2native bin/main.dart -o bin/weather
+./bin/weather
+```
+
+Output:
 
 ```output
 A command line interface for getting the weather.
