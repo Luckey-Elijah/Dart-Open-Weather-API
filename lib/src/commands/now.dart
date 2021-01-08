@@ -1,14 +1,11 @@
-import 'package:open_weather/src/current_weather/current_weather.dart';
+import 'package:open_weather/current_weather.dart';
 
 import 'weather_command.dart';
 
 class Current extends WeatherCommand {
   @override
-  Future<CurrentWeather> getWeather(String city) {
-    // TODO: implement getWeather
-    throw UnimplementedError();
-  }
-
+  Future<CurrentWeather> getWeather(String city) async =>
+      CurrentWeather.fromJson(await byCityName(city));
   @override
   String get description => 'Get the current weather.';
 
