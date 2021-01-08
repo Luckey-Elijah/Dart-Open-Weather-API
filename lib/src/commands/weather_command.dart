@@ -4,7 +4,6 @@ import 'package:open_weather/current_weather.dart';
 import '../api.dart';
 
 abstract class WeatherCommand extends Command {
-  String loadingMessage;
   static WeatherApi weatherApi = WeatherApi();
   Future<CurrentWeather> getWeather(String city);
 
@@ -15,10 +14,8 @@ abstract class WeatherCommand extends Command {
     }
 
     final city = argResults.arguments[0];
-    final loadingString = loadingMessage + ' $city';
 
-    stdout.write('$loadingString\n');
     var weather = getWeather(city);
-    stdout.writeln(weather);
+    stdout.writeln(await weather);
   }
 }

@@ -2,10 +2,25 @@
 
 A Library for interacting with the [OpenWeather API](https://openweathermap.org/api).
 
-Add your API Key to `secrets.yaml` or load it into the utility functions (i.e. `byCityName('City', apiKey: 'key123')`).
+Add your API Key to `secrets.yaml`.
 
-API Docs [here](https://luckey-elijah.github.io/Dart-Open-Weather-API/).
+## Usage
 
-## Progress
+```shell
+dart run bin/main.dart
+```
 
-Check the [project board](https://github.com/Luckey-Elijah/Dart-Open-Weather-API/projects/1) to see the current status.
+```output
+A command line interface for getting the weather.
+
+Usage: weather <command> [arguments]
+
+Global options:
+-h, --help    Print this usage information.
+
+Available commands:
+  now   Get the current weather.
+
+Run "weather help <command>" for more information about a command.
+```
+
