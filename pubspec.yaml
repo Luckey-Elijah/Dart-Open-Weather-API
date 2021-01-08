@@ -7,8 +7,7 @@ environment:
 
 dependencies:
   args: ^1.6.0
-  open_weather:
-    git: https://github.com/Luckey-Elijah/open_weather.git
+  current_forecast_weather_data:
   
 
 dev_dependencies:

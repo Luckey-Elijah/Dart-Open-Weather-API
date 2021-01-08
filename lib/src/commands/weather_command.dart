@@ -1,6 +1,6 @@
 import 'dart:io';
 import 'package:args/command_runner.dart';
-import 'package:open_weather/current_weather.dart';
+import 'package:current_forecast_weather_data/current_weather.dart';
 import '../api.dart';
 
 abstract class WeatherCommand extends Command {

@@ -78,6 +78,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.5"
+  current_forecast_weather_data:
+    dependency: "direct main"
+    description:
+      name: current_forecast_weather_data
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.0"
   file:
     dependency: transitive
     description:
@@ -183,15 +190,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.4.12"
-  open_weather:
-    dependency: "direct main"
-    description:
-      path: "."
-      ref: HEAD
-      resolved-ref: "1fbbc5f173d6b7c81846dc0dc8c27137af9845db"
-      url: "https://github.com/Luckey-Elijah/open_weather.git"
-    source: git
-    version: "1.0.0"
   package_config:
     dependency: transitive
     description:
