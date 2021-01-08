@@ -93,7 +93,7 @@ packages:
     source: hosted
     version: "1.2.0"
   http:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: http
       url: "https://pub.dartlang.org"
@@ -183,6 +183,15 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.4.12"
+  open_weather:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: HEAD
+      resolved-ref: "1fbbc5f173d6b7c81846dc0dc8c27137af9845db"
+      url: "https://github.com/Luckey-Elijah/open_weather.git"
+    source: git
+    version: "1.0.0"
   package_config:
     dependency: transitive
     description:
@@ -191,7 +200,7 @@ packages:
     source: hosted
     version: "1.9.3"
   path:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: path
       url: "https://pub.dartlang.org"
@@ -352,7 +361,7 @@ packages:
     source: hosted
     version: "0.7.4"
   yaml:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: yaml
       url: "https://pub.dartlang.org"

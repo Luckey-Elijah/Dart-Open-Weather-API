@@ -6,10 +6,10 @@ environment:
   sdk: '>=2.8.1 <3.0.0'
 
 dependencies:
-  yaml: ^2.2.1
-  http: ^0.12.2
-  path: ^1.7.0
   args: ^1.6.0
+  open_weather:
+    git: https://github.com/Luckey-Elijah/open_weather.git
+  
 
 dev_dependencies:
   pedantic: ^1.9.0
