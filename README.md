@@ -18,8 +18,8 @@ dart run bin/main.dart
 Build the binary:
 
 ```shell
-dart2native bin/main.dart -o bin/weather
-./bin/weather
+dart2native bin/main.dart -o build/weather
+./build/weather
 ```
 
 Output:
