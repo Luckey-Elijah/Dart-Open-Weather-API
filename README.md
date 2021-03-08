@@ -1,6 +1,6 @@
 # Dart OpenWeather API
 
-A Library for interacting with the [OpenWeather API](https://openweathermap.org/api).
+A cli for interacting with the [OpenWeather API](https://openweathermap.org/api).
 
 Add your API Key to `secrets.yaml`.
 
